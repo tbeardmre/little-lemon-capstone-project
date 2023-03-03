@@ -3,12 +3,13 @@
 /* font-family: 'Markazi Text', serif; */
 /* font-family: 'Karla', sans-serif; */
 
+/* Navbar */
 
 .navBar {
+  margin: 1% 15% 0 15%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 1% 15% 0% 15%;
+  justify-content: space-between;
 }
 
 .navLinks {
@@ -24,10 +25,67 @@
 
 .navLinks a {
   font-family: 'Karla', sans-serif;
-  font-weight: 800;
   font-size: 16px;
+  font-weight: 800;
   color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.navLinks a:hover {
+  color: #ee9972;
+}
+
+/* Footer set up using CSS Grid */
+
+.footerContainer {
+  padding: 40px 15% 40px 15%;
+  display: grid;
+  grid-template-areas: "footer-logo doormat-nav contact-links social-media-links";
+  background-color: #495e57;
+}
+
+.footerItem {
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+}
+
+.footerItem h5 {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.footerItem ul {
+  padding: 0;
+}
+
+.footerItem li {
+  list-style: none;
+}
+
+.footerItem a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
   text-decoration: none;
 }
 
+.footerLogo {
+  grid-area: footer-logo;
+}
 
+.footerLogo img {
+  height: 200px;
+}
+
+.doormatNav {
+  grid-area: doormat-nav;
+}
+
+.contactLinks {
+  grid-area: contact-links;
+}
+
+.socialMediaLinks {
+  grid-area: social-media-links;
+}

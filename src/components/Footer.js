@@ -2,61 +2,61 @@ import React from "react";
 
 function Footer() {
     return(
-        <footer>
-            <div>
-                <img alt="Footer Logo" src=""></img>
+        <footer className="footerContainer">
+            <div className="footerItem footerLogo">
+                <img alt="Footer Logo" src="footer-logo.png"></img>
             </div>
-            <div>
+            <div className="footerItem doormatNav">
                 <h5>Doormat Navigation</h5>
                 <ul>
                     <li>
-                        <a>Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        <a>About</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a>Menu</a>
+                        <a href="#">Menu</a>
                     </li>
                     <li>
-                        <a>Reservations</a>
+                        <a href="#">Reservations</a>
                     </li>
                     <li>
-                        <a>Order Online</a>
+                        <a href="#">Order Online</a>
                     </li>
                     <li>
-                        <a>Login</a>
+                        <a href="#">Login</a>
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="footerItem contactLinks">
                 <h5>Contact</h5>
                 <ul>
                     <li>
-                        <a>Address</a>
+                        <a href="#">Address</a>
                     </li>
                     <li>
-                        <a>Phone</a>
+                        <a href="#">Phone</a>
                     </li>
                     <li>
-                        <a>Email</a>
+                        <a href="#">Email</a>
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="footerItem socialMediaLinks">
                 <h5>Social Media Links</h5>
                 <ul>
                     <li>
-                        <a>Instagram</a>
+                        <a href="#">Instagram</a>
                     </li>
                     <li>
-                        <a>Facebook</a>
+                        <a href="#">Facebook</a>
                     </li>
                     <li>
-                        <a>Twitter</a>
+                        <a href="#">Twitter</a>
                     </li>
                     <li>
-                        <a>TikTok</a>
+                        <a href="#">TikTok</a>
                     </li>
                 </ul>
             </div>
