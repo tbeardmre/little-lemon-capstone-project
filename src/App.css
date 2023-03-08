@@ -132,6 +132,58 @@ p {
   margin: 0px;
 }
 
+.special-card {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 35px;
+  margin: 0 15% 0 15%;
+  justify-content: space-between;
+  padding: 40px 0 40px 0;
+}
+
+/* Specials Cards */
+
+.special-card-container {
+  background-color: #d9d9d9;
+  width: 400px;
+  height: 520px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-card-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.special-card-text {
+  padding: 0 20px 0 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 15%;
+}
+
+.special-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-tag {
+  color: #ee9972;
+}
+
+.special-card-container a {
+  padding: 0 0 15px 20px;
+  color: black;
+}
+
 /* Footer set up using CSS Grid */
 
 .footerContainer {

@@ -1,4 +1,5 @@
 import React from "react";
+import SpecialsCards from "./SpecialsCards";
 
 function Main() {
     return (
@@ -12,7 +13,7 @@ function Main() {
                     <button className="reserveTableButton">Reserve a Table</button>
                 </div>
                 <div className="heroImage">
-                    <img src="icons_assets/restaurant chef B.jpg" />
+                    <img src="images/restaurant-chef-B.jpg" />
                 </div>
             </section>
             {/*Highlight section (Specials)  */}
@@ -23,6 +24,14 @@ function Main() {
                 </div>
                 <div>
                     {/* Special cards go here */}
+                    <SpecialsCards />
+                </div>
+            </section>
+            {/* Testimonials section */}
+            <section className="testimonialsSection">
+                <h2>Testimonials</h2>
+                <div>
+                    {/* Testimonial cards go here */}
                 </div>
             </section>
         </div>
