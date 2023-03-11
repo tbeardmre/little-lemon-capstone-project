@@ -1,7 +1,8 @@
 import React from "react";
+import "../styles/Nav.css"
 
 function Nav() {
-    return(
+    return (
         <nav className="navBar">
             <img className="logo" src="Logo.svg" alt="Little Lemon Logo"></img>
             <ul className="navLinks">

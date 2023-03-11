@@ -1,0 +1,26 @@
+.heroSection {
+  display: flex;
+  background-color: #4b5e57;
+  padding: 40px 15% 40px 15%;
+}
+
+.heroSection h1 {
+  margin: 0px;
+}
+
+.heroSection h2 {
+  margin: 0px;
+  color: white;
+  transform: translateY(-20%);
+}
+
+.heroSection p {
+  color: white;
+  margin: 40px 15% 40px 0;
+}
+
+.heroImage img {
+  height: 350px;
+  border-style: none;
+  border-radius: 8px;
+}

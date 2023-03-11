@@ -1,0 +1,30 @@
+.navBar {
+  margin: 1% 15% 0 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.navLinks li {
+  list-style: none;
+}
+
+.navLinks a {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.navLinks a:hover {
+  color: #ee9972;
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* font-family: 'Markazi Text', serif; */
+/* font-family: 'Karla', sans-serif; */
+
+/* Global Styles */
+
+h1 {
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #f4ce14;
+}
+
+/* Sub-titles */
+h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* Section titles & buttons & form  */
+h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* Card titles */
+h4 {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* Nav & section catagory & footer titles */
+h5 {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: white;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
