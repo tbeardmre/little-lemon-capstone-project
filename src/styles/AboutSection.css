@@ -1,0 +1,38 @@
+.aboutSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 15% 40px 15%;
+}
+
+.about-us-text {
+    width: 40%;
+}
+
+.about-us-text h2 {
+    margin: 0;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.images-container img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.image-top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    z-index: 1;
+    padding-top: 120px;
+}
+
+.image-bottom {
+    grid-column: 6 / -1;
+    grid-row: 1;
+}

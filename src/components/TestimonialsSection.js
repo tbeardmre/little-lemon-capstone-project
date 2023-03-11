@@ -7,9 +7,7 @@ function TestimonialsSection() {
   return (
     <section className="testimonialsSection">
       <h2>Testimonials</h2>
-      <div>
-        <TestimonialsCards />
-      </div>
+      <TestimonialsCards />
     </section>
   );
 }
