@@ -28,6 +28,11 @@
   font-weight: 300;
   color: #ffffff;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.footerItem a:hover {
+  color: #ee9972;
 }
 
 .footerLogo {

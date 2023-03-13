@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Footer.css"
+import { Link } from "react-router-dom";
 
 function Footer() {
     return(
@@ -11,22 +12,22 @@ function Footer() {
                 <h5>Doormat Navigation</h5>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <a href="#">Menu</a>
+                        <Link to="/menu">Menu</Link>
                     </li>
                     <li>
-                        <a href="#">Reservations</a>
+                        <Link to="/reservations">Reservations</Link>
                     </li>
                     <li>
-                        <a href="#">Order Online</a>
+                        <Link to="/order-online">Order Online</Link>
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <Link to="/login">Login</Link>
                     </li>
                 </ul>
             </div>
@@ -48,16 +49,16 @@ function Footer() {
                 <h5>Social Media Links</h5>
                 <ul>
                     <li>
-                        <a href="#">Instagram</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
                     </li>
                     <li>
-                        <a href="#">Facebook</a>
+                        <a href="https://www.facebook.com/">Facebook</a>
                     </li>
                     <li>
-                        <a href="#">Twitter</a>
+                        <a href="https://twitter.com/">Twitter</a>
                     </li>
                     <li>
-                        <a href="#">TikTok</a>
+                        <a href="https://www.tiktok.com/en/">TikTok</a>
                     </li>
                 </ul>
             </div>

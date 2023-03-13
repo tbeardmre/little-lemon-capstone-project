@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/ReservationButton.css"
+import "../styles/ReservationButton.css";
+import { Link } from "react-router-dom";
 
 function ReservationButton() {
-    return (
-        <button className="reservationButton">Reserve a Table</button>
-    );
-};
+  return (
+      <Link to="/reservations"><button className="reservationButton">Reserve a Table</button></Link>
+  );
+}
 
 export default ReservationButton;

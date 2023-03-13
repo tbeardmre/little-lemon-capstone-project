@@ -6,4 +6,10 @@
   padding: 15px;
   border-radius: 16px;
   border-style: none;
+  transition: 0.3s;
+}
+
+.reservationButton:hover {
+  background-color: #ee9972;
+  cursor: pointer;
 }
