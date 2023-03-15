@@ -1,0 +1,53 @@
+form {
+  margin: 40px 15% 40px 15%;
+  height: 500px;
+}
+
+label {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+legend {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+fieldset {
+  border-radius: 16px;
+  background-color: #edefee;
+  border: none;
+  height: 100%;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 80px);
+  height: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.submit-button input {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f4ce14;
+  padding: 15px;
+  border-radius: 16px;
+  border-style: none;
+  transition: 0.3s;
+  width: 150px;
+}
+
+.styled-field input {
+    background-color: #edefee;
+}
+

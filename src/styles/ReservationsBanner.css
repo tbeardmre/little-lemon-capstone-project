@@ -1,0 +1,14 @@
+.reservations-banner {
+    background-image: url("/Users/thomasbeardmore/Documents/little-lemon-capstone-project/public/images/restaurant.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservations-banner h1 {
+    color: white;
+}
