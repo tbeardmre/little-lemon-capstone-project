@@ -1,6 +1,5 @@
 form {
-  margin: 40px 15% 40px 15%;
-  height: 500px;
+  margin: 40px 15% 80px 15%;
 }
 
 label {
@@ -17,22 +16,65 @@ legend {
 
 fieldset {
   border-radius: 16px;
-  background-color: #edefee;
+  background-color: white;
   border: none;
-  height: 100%;
+}
+
+.form-title {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .form-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 400px 400px;
   grid-template-rows: repeat(5, 80px);
-  height: 100%;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .field {
   display: flex;
   flex-direction: column;
-  width: 50%;
+}
+
+.field input {
+  width: 300px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: #edefee;
+  border: #edefee;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 3px solid #4b5e57;
+}
+
+.field select {
+  width: 150px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: #edefee;
+  border-style: none;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+}
+
+select:focus {
+    outline: none !important;
+    border: 3px solid #4b5e57;
+}
+
+.date input {
+    width: 200px;
+}
+
+.guests input {
+    width: 40px;
 }
 
 .submit-button input {
@@ -43,11 +85,15 @@ fieldset {
   padding: 15px;
   border-radius: 16px;
   border-style: none;
-  transition: 0.3s;
-  width: 150px;
+  transition-duration: 0.2s;
 }
 
-.styled-field input {
-    background-color: #edefee;
+.submit-button input:hover {
+  background-color: #ee9972;
+  cursor: pointer;
 }
 
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+}
